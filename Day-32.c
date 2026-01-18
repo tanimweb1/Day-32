@@ -16,7 +16,27 @@ for(int i = 1;i<=10;i++){
 
 
 
+// Problem -1
+
+int n;
+scanf("%d",&n);
+
+if(n>=18){
+    printf("Person can give vote");
+}
+else{
+    printf("Can't give vote");
+}
+
+
+
+
+
+
+    
+
 
 return 0;
+
 
 }
