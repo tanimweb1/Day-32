@@ -87,6 +87,14 @@ printf("Sum is %f", (a + b + c + d + e)/5);
 
 
 
+    //Fahrenheit to Celsius
+float c, f;
+printf("enter the vlaue of F ");
+scanf("%f", &f);
+c = ((f-32)* 5)/9;
+printf("Celcious is %f", c);
+
+
 
     
 
@@ -94,6 +102,7 @@ return 0;
 
 
 }
+
 
 
 
