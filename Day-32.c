@@ -67,10 +67,34 @@ printf("Voltage is %f", Current * resistance);
     
 
 
+
+
+// Area of a Circle
+
+float pai, r;
+printf("Enter the value of pai and r");
+scanf("%f%f", &pai, &r);
+printf("Area is %f", pai * r * r );
+
+
+// Average of 5 Numbers
+float a,b,c,d,e;
+printf("enter the value of a b c d e ");
+scanf("%f%f%f%f%f", &a, &b, &c, &d, &e);
+printf("Sum is %f", (a + b + c + d + e)/5);
+
+
+
+
+
+
+    
+
 return 0;
 
 
 }
+
 
 
 
