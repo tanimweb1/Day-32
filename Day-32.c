@@ -96,12 +96,29 @@ printf("Celcious is %f", c);
 
 
 
+
+
+// total cost-class practice
+
+int day;
+float cpd,tc,hc,scp,Total,t1,t2;
+scanf("%d%f%f%f%f",&day,&cpd,&tc,&hc,&scp);
+
+t1 = day*cpd;
+t2 = day * cpd * scp /100;
+
+Total = t1 + t2 + tc + hc;
+printf("Total cost is %f",Total);
+
+
+    
     
 
 return 0;
 
 
 }
+
 
 
 
