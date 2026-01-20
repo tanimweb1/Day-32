@@ -43,6 +43,19 @@ else{
     printf("Not a leap year");
 }
 
+
+
+
+
+// revise
+
+//kinetic energy
+float mass, velocity;
+printf("enter the value of mass and velocity");
+scanf("%f%f", &mass, &velocity);
+printf("Kinetic Energy is %f", 0.5 * mass * velocity* velocity);
+
+
     
 
 
@@ -50,4 +63,5 @@ return 0;
 
 
 }
+
 
