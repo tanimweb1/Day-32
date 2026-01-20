@@ -56,6 +56,14 @@ scanf("%f%f", &mass, &velocity);
 printf("Kinetic Energy is %f", 0.5 * mass * velocity* velocity);
 
 
+
+
+    //Ohm's Law
+float Current, resistance;
+printf("Enter the value of Current and Resistance ");
+scanf("%f%f", &Current, &resistance);
+printf("Voltage is %f", Current * resistance);
+
     
 
 
@@ -63,5 +71,6 @@ return 0;
 
 
 }
+
 
 
